@@ -8,7 +8,10 @@ h1 {
 }
 
 img{
+<<<<<<< HEAD
   min-width: 300px;
+=======
+>>>>>>> 393ac13 (Adding changes for sprint 1)
   height:200px;
   border:10px solid black;
   border-radius:20px;
