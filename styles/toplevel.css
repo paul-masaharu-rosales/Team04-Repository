@@ -7,10 +7,16 @@ h1 {
   color: navy;
 }
 
-img{
-  max-width: 300px;
-  min-height: 200px;
-  border: 5px solid black;
-  border-radius:20px;
+img {
+  width: 300px;  /* Adjust size */
+  height: auto;
+  transition: transform 0.5s ease-in-out, opacity 0.5s;
+}
+
+/* Hover effect */
+img:hover {
+  transform: scale(1.1);  /* Slight zoom effect */
+  opacity: 0.8;  /* Fade effect */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow */
 }
 
