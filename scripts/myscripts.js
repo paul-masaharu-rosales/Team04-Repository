@@ -1,4 +1,4 @@
-
+// Function to show image alt text on hover
 function showAlt(image) {
   const caption = document.querySelector("figcaption");
   caption.innerText = image.alt;
@@ -18,3 +18,16 @@ function hideAlt(image) {
   image.style.transform = "scale(1)";
   image.style.border = "none";
 }
+
+
+
+// Smooth Scroll Effect for "Explore Now" Button
+document.getElementById("scrollButton").addEventListener("click", function(event) {
+  event.preventDefault(); // Prevent default anchor behavior
+
+  // Scroll down smoothly by 300px
+  window.scrollBy({
+    top: 300,  // Adjust this value to control how far down it scrolls
+    behavior: "smooth"
+  });
+});
