@@ -3,11 +3,36 @@
 /* ========================== */
 
 body {
-    background-color: #d9f2ff;  /* SOFT GREEN - Nature Inspired */
+    background-color: #d9f2ff;  /* SOFT BLUE - Nature Inspired */
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+/* Navigation Menu */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1c9600;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }
 
 /* ========================== */
@@ -67,17 +92,6 @@ body {
     background: #ff2e00;
 }
 
-/* Smooth Scrolling */
-html {
-    scroll-behavior: smooth;
-}
-
-/* Fade-in Animation */
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-10px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
 /* ========================== */
 /* IMAGE GRID STYLING */
 /* ========================== */
@@ -87,14 +101,14 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* Space between images */
+    gap: 20px;
     padding: 40px 10px;
 }
 
 /* Individual image box */
 .image-item {
     position: relative;
-    width: 300px; /* Fixed width */
+    width: 300px;
     text-align: center;
 }
 
@@ -108,7 +122,7 @@ html {
 
 /* Hover effect */
 .image-item img:hover {
-    transform: scale(1.05); /* Slight zoom */
+    transform: scale(1.05);
     opacity: 0.9;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
