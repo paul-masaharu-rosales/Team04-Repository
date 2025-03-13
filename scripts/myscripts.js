@@ -12,3 +12,13 @@ document.getElementById("scrollButton").addEventListener("click", function(event
     behavior: "smooth"
   });
 });
+function showAlt(image) {
+  let caption = document.querySelector('figcaption');
+  caption.textContent = image.alt;  // Display the alt text in the figcaption
+}
+
+// Function to hide the alt text
+function hideAlt() {
+  let caption = document.querySelector('figcaption');
+  caption.textContent = '';  // Clear the caption text
+}
