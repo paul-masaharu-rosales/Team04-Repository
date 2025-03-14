@@ -45,7 +45,16 @@ li a {
 li a:hover {
   background-color: #111;
 }
-</style>
-</head>
-<body>
+.Directions-text {
+  display: flex;
+  padding-left: 40px;
+  gap: 20px; /* Space between terminal names */
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.Directions-text p {
+  margin: 0; /* Remove default margins */
+}
 
